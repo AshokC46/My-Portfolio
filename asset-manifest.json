@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AshokC46/My-Portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/AshokC46/My-Portfolio/static/js/main.33d1c1ff.js",
+    "static/js/453.1407b060.chunk.js": "/AshokC46/My-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/weather-app.png": "/AshokC46/My-Portfolio/static/media/weather-app.238930ca069532a7e93b.png",
+    "static/media/food-project.png": "/AshokC46/My-Portfolio/static/media/food-project.c87338ad33aad56bf612.png",
+    "static/media/car-app.jpg": "/AshokC46/My-Portfolio/static/media/car-app.10fabcfc8bfb1dd837a3.jpg",
+    "static/media/ashok-image.jpg": "/AshokC46/My-Portfolio/static/media/ashok-image.4e45dd0ed19b05dca58a.jpg",
+    "index.html": "/AshokC46/My-Portfolio/index.html",
+    "main.33d1c1ff.js.map": "/AshokC46/My-Portfolio/static/js/main.33d1c1ff.js.map",
+    "453.1407b060.chunk.js.map": "/AshokC46/My-Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.33d1c1ff.js"
+  ]
+}
