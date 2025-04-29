@@ -97,7 +97,3 @@ Contributions are welcome! If you find a bug or have an improvement suggestion, 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README will give potential contributors or visitors clear guidance on how to run the project locally, deploy it, and contribute to it. Make sure to replace placeholder text like `yourusername` and `your-repo-name` with your actual GitHub username and repository name.
