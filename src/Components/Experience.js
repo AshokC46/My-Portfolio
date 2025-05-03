@@ -35,34 +35,6 @@ const experiences = [
     ),
   },
   {
-    role: "Web-Developer",
-    company: "CodSoft",
-    period: "June 2024 – Nov 2024",
-    description: (
-      <ul className="list-disc list-inside space-y-2 text-gray-700">
-        <li>
-          Learned and practiced core front-end technologies including HTML, CSS,
-          JavaScript, and Bootstrap.
-        </li>
-
-        <li>
-          Gained foundational experience in building responsive web pages and UI
-          components.
-        </li>
-
-        <li>
-          Explored the basics of React.js and created small interactive
-          components.
-        </li>
-
-        <li>
-          Improved understanding of layout, styling, and component-based design
-          in web development.
-        </li>
-      </ul>
-    ),
-  },
-  {
     role: "Self Projects",
     company: "Portfolio & Mini Apps",
     period: "2024 – Present",

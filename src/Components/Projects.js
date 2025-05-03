@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import project from "../assets/food-project.png";
 import project2 from "../assets/weather-app.png";
-import project3 from "../assets/car-app.jpg";
+import project3 from "../assets/job-board.png";
 const projects = [
   {
     title: "Food Delivery App",
@@ -13,12 +13,12 @@ const projects = [
     github: "https://github.com/AshokC46/Food-Delivery-Application",
   },
   {
-    title: "Car Explorer",
-    description: "Browse your favorite cars by type using dynamic API filters.",
+    title: "Job Board",
+    description: "Job Board allows users to browse job listings, create resumes, and manage profiles.",
     image: project3,
-    tech: ["React", "API", "Filtering"],
-    live: "https://your-carexplorer-link.com",
-    github: "https://github.com/AshokC46/Car-View-Application",
+    tech: ["React", "API", "React Router", "GitHub Pages, "],
+    live: "https://ashokc46.github.io/-Job-Board/",
+    github: "https://github.com/AshokC46/-Job-Board",
   },
   {
     title: "Weather App",

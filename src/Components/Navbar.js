@@ -1,4 +1,4 @@
-import { Link } from "react-scroll"; // NEW import
+import { Link } from "react-scroll";
 
 function Navbar() {
   const handleResumeDownload = () => {
