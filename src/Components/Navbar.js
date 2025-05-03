@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ashok Chavala Resume F.pdf";
+    link.href = "/ashok_chavala.pdf";
     link.download = "Ashok_Resume.pdf";
     link.click();
   };
