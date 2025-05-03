@@ -3,10 +3,11 @@ import { Link } from "react-scroll";
 function Navbar() {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/ashok_chavala.pdf";
+    link.href = `${process.env.PUBLIC_URL}/ashok_chavala.pdf`;
     link.download = "Ashok_Resume.pdf";
     link.click();
   };
+  
   return (
     <nav className="fixed top-0 w-full flex justify-between p-6 bg-white shadow-md z-50">
       <div className="text-2xl font-bold">My Portfolio</div>
