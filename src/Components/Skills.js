@@ -9,18 +9,32 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiTailwindcss,
+  SiTypescript,
+  SiStripe,
+  SiPaypal,
+  SiRazorpay,
+  } from "react-icons/si";
+  import { FaPalette,  FaMoneyCheckAlt } from "react-icons/fa"; 
+
 
 const skills = [
   { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
+  { name: "Material UI", icon: <FaPalette className="text-blue-500" /> },
   { name: "Bootstrap", icon: <FaBootstrap className="text-indigo-600" /> },
   { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
   { name: "GitHub", icon: <FaGithub className="text-black" /> },
+  { name: "Stripe API", icon: <SiStripe className="text-purple-500" /> },
+  { name: "PayPal SDK", icon: <SiPaypal className="text-blue-400" /> },
+  { name: "Razorpay", icon: <SiRazorpay className="text-indigo-500" /> },
+  { name: "Checkout.com", icon: <FaMoneyCheckAlt className="text-green-500" /> },
+
 ];
 
 function Skills() {

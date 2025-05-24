@@ -20,7 +20,7 @@ function Hero() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-xl md:text-2xl mb-8"
         >
-          Front-End Developer | React & Tailwind Enthusiast
+          Front-End Developer | React & TypeScript Enthusiast
         </motion.p>
 
         <div className="mb-8">
