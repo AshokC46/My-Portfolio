@@ -6,10 +6,10 @@ const experiences = [
   {
     role: "Front-End Developer Intern",
     company: "DevGnan",
-    period: "Jan 2024 – Present",
+    period: "Feb 2025 – Present",
     description: (
       <ul className="list-disc list-inside space-y-2 text-gray-700">
-        <li>Built responsive UIs using React.js and Bootstrap.</li>
+        <li>Built responsive UIs using React.js and Material UI.</li>
         <li>Integrated REST APIs and improved component performance by 25%.</li>
         <li>
           Built and contributed to real-time React applications using Material
@@ -41,7 +41,7 @@ const experiences = [
     description: (
       <ul className="list-disc list-inside space-y-2 text-gray-700">
         <li>
-          Built 5+ production-level React applications including a Food Delivery
+          Built 5+ production-level React applications including a personal Finance,Travel website, Food Delivery
           App, Car Explorer, and Weather App.
         </li>
 

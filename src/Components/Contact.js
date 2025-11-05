@@ -8,7 +8,7 @@ function Contact() {
       
       <div className="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md text-center">
         <p className="text-gray-700 mb-6">
-          Feel free to reach out for collaborations or just a friendly hello 👋
+          Feel free to reach out for collaborations or just a friendly hello 
         </p>
 
         <div className="flex justify-center gap-6 text-xl text-indigo-600 mb-8">

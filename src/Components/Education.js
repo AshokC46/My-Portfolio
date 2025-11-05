@@ -5,8 +5,8 @@ const education = [
   {
     degree: "B.Tech in Electrical and Electronics Engineering",
     institution: "N.B.K.R Institute of Science and Technology",
-    period: "2019 – 2023",
-    score: "CGPA: 6.12",
+    passed: "2023",
+    
   },
 ];
 
@@ -47,8 +47,8 @@ function EducationAwards() {
             <div key={idx} className="mb-4">
               <h4 className="text-lg font-semibold text-gray-800">{edu.degree}</h4>
               <p className="text-gray-700">{edu.institution}</p>
-              <p className="text-sm text-gray-500">{edu.period}</p>
-              <p className="text-sm text-gray-600">{edu.score}</p>
+              <p className="text-sm text-gray-500">{edu.passed}</p>
+              
             </div>
           ))}
         </motion.div>

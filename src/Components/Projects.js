@@ -3,28 +3,94 @@ import { motion } from "framer-motion";
 import project from "../assets/food-project.png";
 import project2 from "../assets/weather-app.png";
 import project3 from "../assets/job-board.png";
+import smartBudget from "../assets/smart-budget-app.png";
+import travelEase from "../assets/travelease.png";
+
 const projects = [
+  {
+    title: "Smart Budget App",
+    description:
+      "A personal finance management app to track expenses, set budgets, and analyze spending using interactive charts.",
+    image: smartBudget,
+    tech: [
+      "React",
+      "Material UI",
+      "JavaScript (ES6+)",
+      "React-Router",
+      "REST API",
+      "Chart.js",
+      "LocalStorage",
+      "Responsive Design",
+    ],
+    live: "https://ashokc46.github.io/Smart_Budget/",
+    github: "https://github.com/AshokC46/Smart_Budget",
+  },
+
+  {
+    title: "TravelEase Website",
+    description:
+      "A responsive travel booking platform to explore destinations, view packages, and plan trips with smooth navigation and modern UI.",
+    image: travelEase,
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript (ES6+)",
+      "React-Router",
+      "REST API",
+      "Responsive Design",
+      "Deployment",
+    ],
+    live: "https://ashokc46.github.io/TravelEase/",
+    github: "https://github.com/AshokC46/TravelEase",
+  },
   {
     title: "Food Delivery App",
     description: "A responsive food ordering app with Redux and localStorage.",
     image: project,
-    tech: ["React", "Redux", "Bootstrap", "API","JavaScript (ES6+)","React-Router","LocalStorage","RESTAPI","Razorpay"],
+    tech: [
+      "React",
+      "Redux",
+      "Bootstrap",
+      "API",
+      "JavaScript (ES6+)",
+      "React-Router",
+      "LocalStorage",
+      "RESTAPI",
+      "Razorpay",
+    ],
     live: "https://ashokc46.github.io/Food-Delivery-Application/",
     github: "https://github.com/AshokC46/Food-Delivery-Application",
   },
   {
     title: "Job Board",
-    description: "Job Board allows users to browse job listings, create resumes, and manage profiles.",
+    description:
+      "Job Board allows users to browse job listings, create resumes, and manage profiles.",
     image: project3,
-    tech: ["React", "RESTAPI", "React Router", "GitHub Pages","JavaScript (ES6+)","html2pdf.js","LocalStorage"],
+    tech: [
+      "React",
+      "RESTAPI",
+      "React Router",
+      "GitHub Pages",
+      "JavaScript (ES6+)",
+      "html2pdf.js",
+      "LocalStorage",
+    ],
     live: "https://ashokc46.github.io/-Job-Board/",
     github: "https://github.com/AshokC46/-Job-Board",
   },
   {
     title: "Weather App",
-    description: "Get latest weather updates with one click using OpenWeather API.",
+    description:
+      "Get latest weather updates with one click using OpenWeather API.",
     image: project2,
-    tech: ["React", "Bootstrap", "API","React Router", "GitHub Pages","JavaScript (ES6+)"],
+    tech: [
+      "React",
+      "Bootstrap",
+      "API",
+      "React Router",
+      "GitHub Pages",
+      "JavaScript (ES6+)",
+    ],
     live: "https://ashokc46.github.io/Weather-Forecast-App/",
     github: "https://github.com/AshokC46/Weather-Forecast-App",
   },
