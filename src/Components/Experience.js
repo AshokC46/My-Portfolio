@@ -4,24 +4,57 @@ import { FaBriefcase } from "react-icons/fa";
 
 const experiences = [
   {
-    role: "Front-End Developer Intern",
-    company: "DevGnan",
-    period: "Feb 2025 – Present",
+    role: "Software Engineer",
+    company: "Digitalinnk",
+    period: "Jan 2026 – March 2026",
     description: (
       <ul className="list-disc list-inside space-y-2 text-gray-700">
-        <li>Built responsive UIs using React.js and Material UI.</li>
-        <li>Integrated REST APIs and improved component performance by 25%.</li>
+        <li>
+          Developed high-performance UI modules for insurance platforms using{" "}
+          <strong>React.js</strong> and <strong>Redux Toolkit</strong>.
+        </li>
+        <li>
+          Implemented <strong>Agile/Scrum</strong> workflows, contributing to
+          sprint refinements and daily stand-ups.
+        </li>
+        <li>
+          Maintained code quality by clearing <strong>SonarCloud</strong>{" "}
+          quality gates and resolving ESLint issues.
+        </li>
+        <li>
+          Managed task progression using <strong>JIRA</strong> and handled
+          automated deployments via <strong>GitHub Actions</strong>.
+        </li>
+      </ul>
+    ),
+  },
+
+  {
+    role: "Front-End Developer Intern",
+    company: "DevGnan",
+    period: "Feb 2025 – Nov 2025",
+    description: (
+      <ul className="list-disc list-inside space-y-2 text-gray-700">
+        <li>
+          Built responsive UIs using <strong>React.js</strong> and{" "}
+          <strong>Material UI.</strong>
+        </li>
+        <li>
+          Integrated <strong>REST APIs</strong> and improved component
+          performance by 25%.
+        </li>
         <li>
           Built and contributed to real-time React applications using Material
-          UI, Bootstrap, and TailwindCSS.
+          UI, <strong>Bootstrap </strong>and<strong> TailwindCSS.</strong>
         </li>
         <li>
           Worked with REST APIs to dynamically render data and utilized
           localStorage.
         </li>
         <li>
-          Used Redux for global state management and Redux DevTools for
-          debugging and monitoring app state.
+          Used Redux for global state management and{" "}
+          <strong>Redux DevTools</strong> for debugging and monitoring app
+          state.
         </li>
         <li>
           Debugged application logic efficiently using Chrome DevTools and
@@ -41,8 +74,9 @@ const experiences = [
     description: (
       <ul className="list-disc list-inside space-y-2 text-gray-700">
         <li>
-          Built 5+ production-level React applications including a personal Finance,Travel website, Food Delivery
-          App, Car Explorer, and Weather App.
+          Built 5+ production-level React applications including a personal
+          Finance,Travel website, Food Delivery App, Car Explorer, and Weather
+          App.
         </li>
 
         <li>

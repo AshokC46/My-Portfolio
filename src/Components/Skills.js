@@ -5,42 +5,48 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
-  FaBootstrap,
-  FaGitAlt,
   FaGithub,
+  FaJira,
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss,
+import {
+  SiRedux,
+  SiTailwindcss,
   SiTypescript,
-  SiStripe,
-  SiPaypal,
-  SiRazorpay,
-  } from "react-icons/si";
-  import { FaPalette,  FaMoneyCheckAlt } from "react-icons/fa"; 
-
+  SiSonarcloud,
+  SiTestinglibrary,
+  SiVite,
+  SiMaterialdesign,
+} from "react-icons/si";
+import { HiLightningBolt } from "react-icons/hi";
 
 const skills = [
-  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
-  { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
-  { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
-  { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
-  { name: "Material UI", icon: <FaPalette className="text-blue-500" /> },
-  { name: "Bootstrap", icon: <FaBootstrap className="text-indigo-600" /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
-  { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
-  { name: "GitHub", icon: <FaGithub className="text-black" /> },
-  { name: "Stripe API", icon: <SiStripe className="text-purple-500" /> },
-  { name: "PayPal SDK", icon: <SiPaypal className="text-blue-400" /> },
-  { name: "Razorpay", icon: <SiRazorpay className="text-indigo-500" /> },
-  { name: "Checkout.com", icon: <FaMoneyCheckAlt className="text-green-500" /> },
+  { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
+  { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
 
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
+  { name: "Material UI", icon: <SiMaterialdesign className="text-blue-500" /> },
+
+  { name: "SonarCloud", icon: <SiSonarcloud className="text-orange-500" /> },
+  { name: "Unit Testing", icon: <SiTestinglibrary className="text-red-500" /> },
+  {
+    name: "Agile / Scrum",
+    icon: <HiLightningBolt className="text-yellow-500" />,
+  },
+  { name: "JIRA", icon: <FaJira className="text-blue-600" /> },
+  { name: "GitHub Actions", icon: <FaGithub className="text-black" /> },
+  { name: "Vite", icon: <SiVite className="text-purple-400" /> },
+  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
+  { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
 ];
 
 function Skills() {
   return (
     <section id="skills" className="bg-white py-20 px-6 md:px-20">
-      <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">Skills</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-blue-600">
+        Skills
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 text-center">
         {skills.map((skill, idx) => (
           <motion.div

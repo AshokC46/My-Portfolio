@@ -1,9 +1,12 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import profile from "../assets/ashok-image.jpg"
+import React from "react";
+import { motion } from "framer-motion";
+import profile from "../assets/ashok-image.jpg";
 function Hero() {
   return (
-    <section id="hero" className= "min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white"
+    >
       <div className="text-center p-6">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -20,7 +23,7 @@ function Hero() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-xl md:text-2xl mb-8"
         >
-          Front-End Developer | React & TypeScript Enthusiast
+          Software Engineer specializing in React & TypeScript
         </motion.p>
 
         <div className="mb-8">
@@ -34,7 +37,6 @@ function Hero() {
           />
         </div>
 
-        {/* Button Animation */}
         <motion.a
           href="#projects"
           whileHover={{ scale: 1.1 }}
